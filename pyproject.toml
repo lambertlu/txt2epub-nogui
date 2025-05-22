@@ -10,7 +10,6 @@ keywords = [
 authors = [{ name = "K4YT3X", email = "i@k4yt3x.com" }]
 classifiers = [
   "Environment :: Console",
-  "Environment :: X11 Applications :: Qt",
   "Operating System :: OS Independent",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
