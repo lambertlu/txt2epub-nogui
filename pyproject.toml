@@ -18,13 +18,12 @@ classifiers = [
 dependencies = [
     "langdetect>=1.0.0",
     "ebooklib>=0.18",
-    "PyQt6>=6.5.0",
     "pillow>=10.4.0",
 ]
 dynamic = ["version"]
 
 [project.urls]
-homepage = "https://github.com/k4yt3x/txt2epub/"
+homepage = "https://github.com/lambertlu/txt2epub-nogui/"
 
 [project.scripts]
 txt2epub = "txt2epub.__main__:main"
