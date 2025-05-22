@@ -2,18 +2,16 @@
 
 [中文说明](README.zh.md)
 
-A simple tool for converting TXT books into ePub.
-
-![Image](https://github.com/user-attachments/assets/836e0c03-5fb9-42ab-883c-2fd80f6c1cd3)
+A simple tool for converting TXT books into ePub for headless Linux.
 
 ## Installation
 
 You'll first need to have Python3 and Pip installed. If you're using Windows, then the default Python installer will come with Pip. If you're using Linux, you may need to install an extra package like `python3-pip`. The exact package name depends on your distro.
 
-Then, execute the following command to install TXT2EPUB.
+Then, execute the following command to install TXT2EPUB-nogui.
 
 ```shell
-pip install txt2epub
+pip install txt2epub-nogui
 ```
 
 ## Usage
@@ -22,12 +20,6 @@ You may convert a file from the command line:
 
 ```shell
 txt2epub convert -i <input> -o <output> -t <title> -a <author> -l <language> -c <cover>
-```
-
-...or using the GUI:
-
-```shell
-txt2epub gui
 ```
 
 ## Chapter Detection
