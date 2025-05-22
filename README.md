@@ -1,7 +1,5 @@
 # TXT2EPUB
 
-[中文说明](README.zh.md)
-
 A simple tool for converting TXT books into ePub for headless Linux.
 
 ## Installation
